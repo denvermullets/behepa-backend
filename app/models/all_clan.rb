@@ -1,0 +1,2 @@
+class AllClan < ApplicationRecord
+end

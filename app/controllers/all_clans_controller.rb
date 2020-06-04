@@ -1,0 +1,2 @@
+class AllClansController < ApplicationController
+end
