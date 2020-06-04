@@ -1,2 +1,3 @@
 class SubClan < ApplicationRecord
+    
 end
