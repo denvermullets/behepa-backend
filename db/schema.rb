@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2020_06_04_202502) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.date "event_day"
-    t.time "event_time"
+    t.datetime "event_time"
   end
 
   create_table "sub_clans", force: :cascade do |t|
