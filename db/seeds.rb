@@ -9,3 +9,7 @@
 # membership_id: nil, membership_type: nil, last_active: nil, creation_date: nil,
 # steam_id: nil, is_helper: nil, is_admin: nil, created_at: nil, updated_at: nil
 # User.create(membership_id: 4611686018477259226, membership_type: 3, last_active: )
+
+# name: nil, description: nil, activity: nil, need_helper: nil, 
+# event_day: nil, event_time: nil> 
+# Event.create()
