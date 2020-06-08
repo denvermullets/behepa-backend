@@ -31,13 +31,11 @@ ActiveRecord::Schema.define(version: 2020_06_04_202502) do
   end
 
   create_table "events", force: :cascade do |t|
-    t.string "name"
     t.string "description"
     t.string "activity"
     t.boolean "need_helper"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.date "event_day"
     t.datetime "event_time"
   end
 
