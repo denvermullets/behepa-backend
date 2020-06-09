@@ -63,7 +63,7 @@ ActiveRecord::Schema.define(version: 2020_06_04_202502) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.integer "membership_id"
+    t.string "membership_id"
     t.integer "membership_type"
     t.integer "sub_clan_id"
     t.string "last_active"
