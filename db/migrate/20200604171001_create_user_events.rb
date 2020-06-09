@@ -3,6 +3,7 @@ class CreateUserEvents < ActiveRecord::Migration[6.0]
     create_table :user_events do |t|
       t.belongs_to :user
       t.belongs_to :event
+      t.string :joined
 
       t.timestamps
     end
