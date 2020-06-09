@@ -1,7 +1,6 @@
 class CreateSubClans < ActiveRecord::Migration[6.0]
   def change
     create_table :sub_clans do |t|
-      t.integer :user_id
       t.integer :group_id
       t.string :creation_date
       t.string :last_modified

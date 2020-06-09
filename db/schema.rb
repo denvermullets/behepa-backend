@@ -40,7 +40,6 @@ ActiveRecord::Schema.define(version: 2020_06_04_202502) do
   end
 
   create_table "sub_clans", force: :cascade do |t|
-    t.integer "user_id"
     t.integer "group_id"
     t.string "creation_date"
     t.string "last_modified"
@@ -66,6 +65,7 @@ ActiveRecord::Schema.define(version: 2020_06_04_202502) do
   create_table "users", force: :cascade do |t|
     t.integer "membership_id"
     t.integer "membership_type"
+    t.integer "sub_clan_id"
     t.string "last_active"
     t.string "creation_date"
     t.integer "steam_id"
