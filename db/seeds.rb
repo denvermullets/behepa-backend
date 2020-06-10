@@ -29,7 +29,7 @@ SubClan.create(
 # steam_id: nil, is_helper: nil, is_admin: nil, created_at: nil, updated_at: nil
 # denvermullets
 User.create(
-  display_name: "denvermullets"
+  display_name: "denvermullets",
   sub_clan_id: 1,
   membership_id: "4611686018477259226",
   membership_type: 3,
@@ -42,7 +42,7 @@ User.create(
 )
 # mcmew
 User.create(
-  display_name: "McMew"
+  display_name: "McMew",
   sub_clan_id: 1,
   membership_id: "4611686018485686977",
   membership_type: 3,
@@ -55,7 +55,7 @@ User.create(
 )
 # kwaako
 User.create(
-  display_name: "Kwaako"
+  display_name: "Kwaako",
   sub_clan_id: 1,
   membership_id: "4611686018472864456",
   membership_type: 3,
