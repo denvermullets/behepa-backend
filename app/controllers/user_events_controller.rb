@@ -19,7 +19,7 @@ class UserEventsController < ApplicationController
 
   def event_params
     params.require(:user_event).permit(
-      :user_id, :event_id, :joined
+      :user_id, :event_id, :alternate
     )
   end
 end

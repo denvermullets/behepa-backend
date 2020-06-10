@@ -55,7 +55,7 @@ ActiveRecord::Schema.define(version: 2020_06_09_184705) do
   create_table "user_events", force: :cascade do |t|
     t.bigint "user_id"
     t.bigint "event_id"
-    t.string "joined"
+    t.boolean "alternate"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["event_id"], name: "index_user_events_on_event_id"
