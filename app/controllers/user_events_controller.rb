@@ -1,19 +1,19 @@
+# UserEvents
 class UserEventsController < ApplicationController
   def index
     events = UserEvent.all
     render json: events
-  end 
+  end
 
   def create
     user_event = UserEvent.create(event_params)
     render json: user_event
-  end 
-
-  def show
-    event = UserEvent.where(event_id: params[:id] )
-    render json: event
   end
 
+  def show
+    event = UserEvent.where(event_id: params[:id])
+    render json: event
+  end
 
   private
 
